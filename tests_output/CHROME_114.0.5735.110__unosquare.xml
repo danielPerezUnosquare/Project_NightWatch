@@ -3,9 +3,9 @@
             failures="0"
             tests="0">
 
-  <testsuite name="basic.ecosia"
-    errors="0" failures="0" hostname="" id="" package="basic" skipped="0"
-    tests="0" time="0.003000" timestamp="">
+  <testsuite name="unosquare"
+    errors="0" failures="0" hostname="" id="" package="unosquare" skipped="0"
+    tests="0" time="0.001000" timestamp="">
   
 
   
