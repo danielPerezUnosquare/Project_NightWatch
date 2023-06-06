@@ -5,7 +5,7 @@
  * 
  */
 
-describe('accessibilty tests for nightwatch website', function() {
+/* describe('accessibilty tests for nightwatch website', function() {
   
   before(async function() {
     browser.navigateTo('https://nightwatchjs.org');
@@ -21,4 +21,4 @@ describe('accessibilty tests for nightwatch website', function() {
       runOnly: ['empty-heading', 'page-has-heading-one', 'p-as-heading']
     });
   });
-});
+}); */

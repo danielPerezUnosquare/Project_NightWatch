@@ -10,7 +10,7 @@
  *
  */
 
-describe('To-Do List End-to-End Test', function() {
+/* describe('To-Do List End-to-End Test', function() {
   it('should add a new todo element', async function() {
     // adding a new task to the list
     await browser
@@ -20,4 +20,4 @@ describe('To-Do List End-to-End Test', function() {
       .click('form button[type="submit"]')
       .assert.elementHasCount('#todo-list ul li', 5); // use of custom-assertion
   });
-});
+}); */

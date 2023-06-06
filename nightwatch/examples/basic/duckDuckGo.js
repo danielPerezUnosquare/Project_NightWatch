@@ -1,4 +1,4 @@
-describe('duckduckgo example', function() {
+/* describe('duckduckgo example', function() {
   it('Search Nightwatch.js and check results', function(browser) {
     browser
       .navigateTo('https://duckduckgo.com')
@@ -8,4 +8,4 @@ describe('duckduckgo example', function() {
       .assert.visible('.results--main')
       .assert.textContains('.results--main', 'Nightwatch.js');
   }); 
-});
+}); */

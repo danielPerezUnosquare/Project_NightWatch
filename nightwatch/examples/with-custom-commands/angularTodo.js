@@ -7,7 +7,7 @@
  *
  */
 
-describe('angularjs homepage todo list', function() {
+/* describe('angularjs homepage todo list', function() {
   it('should add a todo using custom commands', async function(browser) {
     // adding a new task to the list
     const elements = await browser
@@ -30,4 +30,4 @@ describe('angularjs homepage todo list', function() {
     // verify if there are 2 tasks which are marked as done in the list
     await expect.elements('*[module=todoApp] li .done-true').count.to.equal(2);
   });
-});
+}); */

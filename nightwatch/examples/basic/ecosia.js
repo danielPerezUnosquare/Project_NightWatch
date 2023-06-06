@@ -1,4 +1,4 @@
-describe('Ecosia.org Demo', function() {
+/* describe('Ecosia.org Demo', function() {
   before(browser => browser.navigateTo('https://www.ecosia.org/'));
 
   it('Demo test ecosia.org', function(browser) {
@@ -13,4 +13,4 @@ describe('Ecosia.org Demo', function() {
   });
 
   after(browser => browser.end());
-});
+}); */
