@@ -5,9 +5,9 @@
 
   <testsuite name="sendPullRequest1"
     errors="0" failures="0" hostname="" id="" package="sendPullRequest1" skipped="0"
-    tests="1" time="2.726" timestamp="">
+    tests="1" time="2.441" timestamp="">
   
-    <testcase name="Demo first exercise" classname="sendPullRequest1" time="1.362" assertions="9">
+    <testcase name="Demo first exercise" classname="sendPullRequest1" time="1.219" assertions="9">
 
     
 

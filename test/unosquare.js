@@ -1,4 +1,4 @@
-/* module.exports = {
+ module.exports = {
     'Demo test unosquare' : function(browser) {
       browser
       .windowMaximize()
@@ -6,7 +6,7 @@
       .waitForElementVisible('body')
       .end();
     }
-  }; */
+  };
 
 /*   module.exports = {
     'Demo test unosquare' : function(browser) {
@@ -59,7 +59,7 @@
     }
   } */
 
-/*   module.exports = {
+/*    module.exports = {
     'Demo test unosquare' : function(browser) {
       browser
       .windowMaximize()
