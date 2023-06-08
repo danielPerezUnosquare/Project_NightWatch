@@ -4,14 +4,14 @@
             tests="0">
 
   <testsuite name="unosquare"
-    errors="1" failures="0" hostname="" id="" package="unosquare" skipped="0"
-    tests="0" time="0.002000" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="unosquare" skipped="1"
+    tests="0" time="0.003000" timestamp="">
   
 
   
     <system-err>
        An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created
-from no such execution context: uniqueContextId not found
+from no such execution context: loader has changed while resolving nodes
   (Session info: chrome=114.0.5735.110)
   Verify if ChromeDriver is configured correctly; using:
   {
@@ -27,6 +27,24 @@ from no such execution context: uniqueContextId not found
 
  
   Set webdriver.log_path in your Nightwatch config to retrieve more logs from ChromeDriver.
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\daniel.perez\OneDrive - Unosquare\Documents\Daniel Perez\Projects\Project_NightWatch\test\unosquare\unosquare_contact.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     4 |       .windowMaximize()
+     5 |       .url(&#39;https://www.unosquare.com&#39;)
+     6 |       .click(&#34;//div[contains(@class, &#39;wg-wagon-type__title&#39;) and text()=&#39;Contact Us&#39;]&#34;) 
+     7 |       .assert.elementPresent(&#34;h1[class=&#39;elementor-heading-title elementor-size-default&#39;]&#34;)
+     8 |       .end()
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
     </system-err>
   
 
@@ -35,6 +53,13 @@ from no such execution context: uniqueContextId not found
       
       ]]></error>  
 
+  
+    
+    <testcase
+      name="Demo test unosquare" classname="unosquare">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
