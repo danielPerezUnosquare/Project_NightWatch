@@ -18,7 +18,7 @@ module.exports = {
   src_folders: ['test'],
 
   // See https://nightwatchjs.org/guide/concepts/page-object-model.html
-  page_objects_path: ['nightwatch/page-objects'],
+  page_objects_path:['PageObjects/Unosquare','PageObjects/Nightwatch'],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-commands.html
   custom_commands_path: ['nightwatch/custom-commands'],
@@ -46,7 +46,7 @@ module.exports = {
   test_settings: {
     default: {
       disable_error_log: false,
-      launch_url: 'http://localhost',
+      launch_url: 'https://nightwatchjs.org',
 
       screenshots: {
         enabled: false,
@@ -55,7 +55,11 @@ module.exports = {
       },
 
       desiredCapabilities: {
-        browserName: 'chrome'
+        browserName: 'chrome',
+        loggingPrefs: { 'browser': 'ALL' },
+                chromeOptions : {
+                    "args" : ["start-maximized"]
+                }
       },
       
       webdriver: {

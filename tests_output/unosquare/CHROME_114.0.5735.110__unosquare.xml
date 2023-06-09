@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="unosquare.unosquare"
-    errors="0" failures="0" hostname="" id="" package="unosquare" skipped="0"
-    tests="1" time="5.426" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="unosquare" skipped="0"
+    tests="1" time="0.1240" timestamp="">
   
-    <testcase name="Demo test unosquare home" classname="unosquare.unosquare" time="2.711" assertions="1">
+    <testcase name="test pages validation" classname="unosquare.unosquare" time="0.06100" assertions="1">  <failure message="Cannot read properties of undefined (reading &#39;mainpage&#39;)">TypeError: Cannot read properties of undefined (reading &#39;mainpage&#39;)
+    at test pages validation (C:\Users\daniel.perez\OneDrive - Unosquare\Documents\Daniel Perez\Projects\Project_NightWatch\test\unosquare\unosquare.js:3:41)</failure>
 
     
     </testcase>
