@@ -1,5 +1,7 @@
 {
     "company": "QA CoE course - Json",
     "phone": "3300000000",
-    "message": "This is a Random Text used in a Course - Json Data file"
+    "message": "This is a Random Text used in a Course - Json Data file",
+    "product": "Samsung Galaxy Note 20",
+    "price": "6,180"
 }
